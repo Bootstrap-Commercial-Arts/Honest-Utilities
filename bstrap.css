@@ -1,0 +1,50 @@
+@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+
+html {
+	font-size:1vw;
+}
+
+body {
+	margin: 0;
+	line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	line-height: 1;
+
+p {
+	font-size:1.5rem;
+}
+
+.row, .grid-row {
+	padding: 1rem;
+}
+
+.row {
+	display: block;
+}
+
+.flex-row, .inset-row {
+	display:flex;
+}
+
+.grid-row {
+	display: grid
+}
+
+.column {
+	flex:1;
+	padding:1rem;
+}
+
+@media (max-width: 1024px) {
+	html {
+		font-size: 1.5vw;
+	}
+}
+
+@media (max-width: 680px) {
+	html {font-size: 2.5vw;	}
+	.inset-row, .flex-row {display:block;}
+}

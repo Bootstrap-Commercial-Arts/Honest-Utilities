@@ -1,7 +1,7 @@
 @import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
 
 html {
-	font-size:1vw;
+	font-size:1.5vw;
 }
 
 body {
@@ -39,13 +39,29 @@ p {
 	padding:1rem;
 }
 
-@media (max-width: 1024px) {
+
+
+/* MEDIA QUERIES: MOBILE, LARGE SCREEN, AND PRINT */
+
+
+@media screen and (max-width: 680px) {
+	html {font-size: 2.5vw;	}
+	.inset-row, .flex-row {display:block;}
+}
+
+@media screen and (min-width: 1200px) {
 	html {
-		font-size: 1.5vw;
+		font-size: 12px;
+	}
+	.row, .flex-row, .grid-row {
+		width: 1200px;
+		margin: 0 auto;
 	}
 }
 
-@media (max-width: 680px) {
-	html {font-size: 2.5vw;	}
-	.inset-row, .flex-row {display:block;}
+@media print {
+	*:not(.bstrap-print) {
+		background color: #ffffff !important;
+		color: #000000 !important;
+	}
 }

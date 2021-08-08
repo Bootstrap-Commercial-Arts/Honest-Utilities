@@ -1,7 +1,7 @@
 @import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
 
 html {
-	font-size:1.5vw;
+	font-size:1vw;
 }
 
 body {
@@ -45,7 +45,7 @@ p {
 
 
 @media screen and (max-width: 680px) {
-	html {font-size: 2.5vw;	}
+	html {font-size: 2vw;	}
 	.inset-row, .flex-row {display:block;}
 }
 

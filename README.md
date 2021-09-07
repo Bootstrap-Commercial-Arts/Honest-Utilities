@@ -2,7 +2,7 @@
 ### honest.css & honest.js
 Created by *Bootstrap Commercial Arts, inc.* for *Honest Marketing & Business Development*
 
----
+
 
 ## CSS micro-framework
 honest.css is created for creating websites with the highest fidelity to their mockups, while still allowing for rapid development.
@@ -11,6 +11,7 @@ honest.css is created for creating websites with the highest fidelity to their m
 - Max width of 1200px keeps content centered & correctly sized on extra-wide screens
 - Simple row & column structure
 - Default classes for Flex, CSS grid, and block rows
+- Print @media query styling removes backgrounds and changes all text to black. Circumvent this behavior by adding the class "honest-print"
 
 ---
 

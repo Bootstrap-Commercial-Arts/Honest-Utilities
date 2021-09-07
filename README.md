@@ -24,5 +24,5 @@ honest.css is created for creating websites with the highest fidelity to their m
 1. Control element ID - element that gets clicked on to initiate the function (most often the button element)
 2. Display element ID - element that is shown/hidden by the function
 3. Function style - an object literal that has the following key pairs:
-  - easyHide (boolean): hide the display element when user clicks anywhere other than the display element.
-  - modal (boolean): adds a div behind the display element with the id "modal-overlay". Default styling for the overlay is set within *honest.css*, but you can override those styles in your own css if you choose. No styling for the modal pop-up itself is included.
+    - easyHide (boolean): hide the display element when user clicks anywhere other than the display element.
+    - modal (boolean): adds a div behind the display element with the id "modal-overlay". Default styling for the overlay is set within *honest.css*, but you can override those styles in your own css if you choose. No styling for the modal pop-up itself is included.

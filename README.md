@@ -2,6 +2,9 @@
 ### honest.css & honest.js
 Created by *Bootstrap Commercial Arts, inc.* for *Honest Marketing & Business Development*
 
+to use honest.css: `<link rel="stylesheet" href="https://honest-utilities.netlify.app/honest.css">`
+to use honest.js: `<script type="text/javascript" src="https://honest-utilities.netlify.app/honest.js"></script>`
+
 
 
 ## CSS micro-framework

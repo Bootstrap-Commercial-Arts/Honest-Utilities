@@ -43,3 +43,8 @@ honest.css is created for creating websites with the highest fidelity to their m
 1. Control element ID - element which sets the height.
 2. Target element ID - element which matches the height of the control element.
 
+
+**setWidth** sets the width of one element to match another. There are two parameters:
+1. Control element ID - element which sets the width.
+2. Target element ID - element which matches the width of the control element.
+

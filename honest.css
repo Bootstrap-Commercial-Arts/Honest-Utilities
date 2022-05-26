@@ -18,7 +18,7 @@ p {
 	font-size:1.5rem;
 }
 
-.row, .grid-row {
+.row, .grid-row, xl-row {
 	padding: 1rem;
 }
 

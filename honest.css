@@ -53,7 +53,7 @@ p {
 	html {
 		font-size: 12px;
 	}
-	.row, .flex-row, .grid-row {
+	.row, .flex-row, .grid-row, .inset-row {
 		width: 1200px;
 		margin: 0 auto;
 	}

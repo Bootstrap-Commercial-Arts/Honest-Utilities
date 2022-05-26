@@ -34,15 +34,6 @@ p {
 	display: grid
 }
 
-.xl-row {
-    width: 100vw !important;
-}
-
-.xl-row .inset-row {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .column {
 	flex:1;
 	padding:1rem;
